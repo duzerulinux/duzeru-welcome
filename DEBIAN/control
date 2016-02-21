@@ -1,0 +1,13 @@
+Package: duzeru-welcome
+Version: 1.0.0
+Essential: yes
+Section: base
+Priority: optional
+Installed-Size: 1200
+Depends: python-simplejson, libjs-jquery
+Homepage: http://duzeru.org
+Maintainer: Claudio A. Silva <claudiosilva@duzeru.org>
+Architecture: all
+Description: DuZeru GNU Linux Welcome Screen
+ Tela de boas vindas para o DuZeru GNU/Linux
+ Pode ser usado para Debian e derivados.

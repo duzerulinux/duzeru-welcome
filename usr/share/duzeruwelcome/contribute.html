@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="css/welcome.css" rel="stylesheet" media="screen">
+</head>
+<body class="backdrop">
+  <div id="wrapper">
+    <div id="header" class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <h1>Contribução - Contribute</h1>
+        </div>
+      </div>
+      <div id="navigation">
+        <ul>
+          <li><a href="./index.html"><i class="icon icon-3x icon-home"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content" class="container-fluid">
+      <div class="row-fluid divider">
+        <div class="span12">
+          <center><h2><text class="icon-qrcode">&nbsp;</text>Codigo - Code</h2>
+
+	  <p>Este momento é muito importante no desenvolvimento DuZeru. O projeto esta sempre no processo de produção de software livre para o DuZeru. A nossa filosofia é código básico, design simples e dependência mínimas no PC. Nossas aplicações devem ser limpas, rápido, simples e inteligente para o projeto, sempre com grande atenção aos detalhes. Usamos o GPL v3 e se você e um desenvolvedor e gostaria de ajudar na DuZeru com código, dicas, scripts, sugerir ou outra, entre em contato para e-mail claudiosilva@duzeru.org </p>
+
+          <p>This is a very exciting time in DuZeru development. We are in the process of producing custom, free software for DuZeru. Our philosophy is basic code, simple design and minimal dependency. Our applications should be clean, fast and simple. Intelligent, well thought out design with great attention to detail. We use the GPL v3. If you're a developer and would like to help on DuZeru or code, tips, suggest or other, enter contact for e-mail claudiosilva@duzeru.org</p><img src="img/header-shadow.png"></img>
+
+          <h2><text class="icon-heart">&nbsp;</text>Doar - Donate</h2>
+
+	  <p>DuZeru é gratuito e pode ser melhor descrito como um trabalho por amor. O objetivo deste projeto é trabalhar nele em tempo integral, para que possamos entregar a você um sistema operacional melhor a cada lançamento, mais tempo, mais recursos, mais opções. Se você usar DuZeru e quer contribuir para o seu sucesso, Doações vão para o desenvolvimento e os serviços online, como site e repositório e outros. Cada doador esta listado na nossa página de doar, independentemente da sua contribuição. Obrigado por fazer a diferença e para dar suporte ao software livre. Considere fazer uma doação clicando aqui:</p>
+
+          <p>DuZeru is free and can best be described as a labour of love. The goal of this project is to work on it full time so that we can deliver to you a better operating system with each release. More time, more features, greater options. If you use DuZeru and want to contribute towards its success, Donations go towards development and online services such as websites and repositories and others. Every donor is listed on our donate page, regardless of their contribution. Thanks for making a difference and for supporting free software. Consider donating by clicking here:</p>
+
+          <a class="btn btn-inverse btn-large" href="cmd://link?http://duzeru.org/doacao/"><i class="icon-heart"></i> PagSeguro Uol</a></p>
+
+
+<p>Se desejar ajudar com tutorial em documento ou vídeo, traduzir algo, entre em contato claudiosilva@duzeru.org </p>
+
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="bottom">
+      <div class="footer-content">
+        <div class="form pull-right">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      var $nav = $('#navigation');
+      $nav.css('left', -$nav.outerWidth());
+      $nav.show();
+      $nav.delay(250).animate({ left: 0 }, 500);
+    });
+  </script>
+</body>
+</html>

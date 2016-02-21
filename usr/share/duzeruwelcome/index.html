@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="css/welcome.css" rel="stylesheet" media="screen">
+</head>
+<body class="backdrop" ng-controller="WelcomeCtrl">
+  <div id="wrapper">
+    <div id="header" class="container-fluid">
+      <div class="row-fluid">
+        <div class="span6 offset3 center">
+          <a href="cmd://link?http://www.duzeru.org/">
+            <img class="logo" src="./img/logo.png"></img>
+          </a>
+        </div>
+        <div class="span3">
+          <div class="system-information">
+          </div>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="span12">
+          <div class="summary">
+            <center><p>Bem-vindos ao DuZeru GNU/Linux, é uma honra ter você como usuário do sistema, somos uma iniciativa livre baseada no Debian, nosso time deseja fazer para você o melhor possível. Nossa moeda de troca neste projeto é o conhecimento mútuo. Abaixo, veja algumas dicas iniciais.</p>
+            <p>Welcome to DuZeru GNU/Linux, it is an honor to have you as a user of the system, we are a Debian-based free enterprise, our team want to make you the best. Our coin trading this project is mutual understanding. Below, see some initial tips.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="content" class="container-fluid">
+      <div class="row-fluid divider">
+        <div class="span4 btn-showcase">
+          <!--Conteudo do corpo-->
+          <h4>Iniciar - Start &nbsp;<text class="icon-circle-arrow-down">&nbsp;</text></h4>
+          <a class="btn btn-block btn-info" href="./start.html"><i class="icon-ok"></i> Atualizações - Updates</a>
+          <a class="btn btn-block" href="./start.html"><i class="icon-upload"></i> Aplicativos - Softwares</a>
+          <a class="btn btn-block" href="./start.html#hardware"><i class="icon-cog"></i> Requisitos - Requirements</a>
+        </div>
+        <div class="span4 btn-showcase">
+          <h4>Suporte - Support</h4>
+          <a class="btn btn-block" href="./support.html"><i class="icon-group"></i> Time - Team</a>
+          <a class="btn btn-block" href="cmd://duzeru-manual"><i class="icon-question-sign"></i> Treinamento - Training </a>
+          <a class="btn btn-block" href="cmd://duzeru-documents"><i class="icon-info-sign"></i> Documentos - Documents</a>
+        </div>
+        <div class="span4 btn-showcase">
+          <h4> Contribuir - Contribute</h4>
+          <a class="btn btn-block" href="./contribute.html"><i class="icon-qrcode"></i> Código - Code</a>
+          <a class="btn btn-block" href="./contribute.html"><i class="icon-heart"></i> Doar - Donate</button></a>
+          <a class="btn btn-block" href="./contribute.html"><i class="icon-thumbs-up"></i> Outros - Others</button></a>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="footer-content">
+        <div id="social" class="pull-left">
+          <a href="cmd://link?https://www.facebook.com/groups/duzerulinux"><img src="img/social-facebook.png"></a>
+          <a href="cmd://link?https://youtube.com.br/duzerulinux"><img src="img/youtube.png"></a>
+          <a href="cmd://link?http://duzeru.org"><img src="img/duzerusite.png"></a>
+          <a href="cmd://link?https://telegram.me/joinchat/BKZrNwC8DoxzamVN-QfaLg"><img src="img/telegram.png"></a>
+        </div>
+        <div class="form">
+          <a id="toggle_autostart" href="cmd://toggle-startup"><i id="autostart" class="icon icon-check"></i> não mostrar mais - not show more.</a>
+          <a href="cmd://close" class="btn-no-width btn-inverse">Close</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/welcome.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Linux DuZeru Welcome
+Comment=Linux DuZeru Welcome Screen
+Exec=duzeru-welcome
+Categories=X-XFCE;GTK;Settings;HardwareSettings
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false
+Icon=menu-icon

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="css/welcome.css" rel="stylesheet" media="screen">
+</head>
+<body class="backdrop">
+  <div id="wrapper">
+    <div id="header" class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <h1>Atualizando o DuZeru</h1>
+        </div>
+      </div>
+      <div id="navigation">
+        <ul>
+          <li><a href="./index.html"><i class="icon icon-3x icon-home"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content" class="container-fluid">
+      <div class="row-fluid divider">
+        <div class="span12">
+          <center><h2><text class="icon-ok">&nbsp;</text>Install Updates</h2>
+          <p>Uma vez instalado o DuZeru, se desejar atualizá-lo, ha uma ferramenta gráfica para atualizar acessando: <b>Menu, Sistema, Gerenciador de atualizacoes</b> Caso deseja atualizar agora, simplesmente clique no botao abaixo agora.</p>
+          
+	<p>Once installed DuZeru, whether to update it, there is a graphical tool for upgrade: <b>Menu, System, Update Manager.</b> If you want to upgrade now, simply click the button below now.</p>
+
+          <a class="btn btn-info btn-large" href="cmd://start_updates"><i class="icon-ok"></i> Atualizar - Update</a></p><img src="img/header-shadow.png"></img>
+
+          <h2><text class="icon-hdd">&nbsp;</text>Software</h2>
+	<p>Adaptamos tudo o mais simples, e com apenas alguns clíques você consegue instalar seus programas favoritos.</p>
+	<p>We adapt everything as simple, with just a few clicks you can install your favorite programs.</p>
+
+            <p><b>Chrome Web Browser
+            <p>Chromium Web Browser
+            <p>VirtualBox
+            <p>Games
+            <p>Skype
+            <p>Teamviewer
+            <p>LibreOffice
+            <p>Updates</b></p>
+
+	<p>Clique em <b>Menu, Sistema, Gerenciador de Aplicações</b> e siga as instrucoes na tela para instalar o aplicativo, ou clique no botão abaixo.</p>
+
+	<p>Click on <b>Menu, System, Software Manager</b> and follow the onscreen prompts to install popular software or click on the button below.</p>
+          <a class="btn btn-inverse btn-large" href="cmd://start_software"><i class="icon-hdd"></i> Software Center</a></p><img src="img/header-shadow.png"></img>
+
+           <h2><text class="icon-cog">&nbsp;</text> Requisitos - Requirements</h2>
+          <p>DuZeru pode ser executado em uma ampla gama de hardware. acesse a <a href="cmd://link?http://duzeru.org/">documentação</a> que contém uma lista crescente de drivers que já estão no sistema.
+             As listas abaixo contém duas recomendações. Um conjunto de especificações mínimas recomendadas, e outra com especificações preferenciais.</p>
+
+<p>DuZeru can run on a wide range of hardware. access the <a href="cmd://link?http://duzeru.org/">documents</a> which contains a growing list of drivers that are already in the system.
+             The list below contains two recommendations. A set of recommended minimum specifications, and other preferred specifications.</p>
+
+          <h3><text class="icon-info-sign">&nbsp;</text>Minimum</h3>
+
+            <p>1.0GHz processor
+            <p>512mb RAM
+            <p>VGA screen 1024x768 resolution
+            <p>DVD drive ou USB para a imagem ISO</p>
+
+          <h3><text class="icon-info-sign">&nbsp;</text>Recommended</h3>
+
+            <p>1.5GHz processor+
+            <p>1024mb RAM
+            <p>VGA, DVI, HDMI 1366x768 resolution
+            <p>DVD drive ou USB para a imagem ISO</p>
+
+          
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="bottom">
+      <div class="footer-content">
+        <div class="form pull-right">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      var $nav = $('#navigation');
+      $nav.css('left', -$nav.outerWidth());
+      $nav.show();
+      $nav.delay(250).animate({ left: 0 }, 500);
+    });
+  </script>
+</body>
+</html>

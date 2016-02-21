@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="css/welcome.css" rel="stylesheet" media="screen">
+</head>
+<body class="backdrop">
+  <div id="wrapper">
+    <div id="header" class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <h1>Obter Suporte - Get Support</h1>
+        </div>
+      </div>
+      <div id="navigation">
+        <ul>
+          <li><a href="./index.html"><i class="icon icon-3x icon-home"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content" class="container-fluid">
+      <div class="row-fluid divider">
+       <div class="span12">
+          <center><h2><text class="icon-group">&nbsp;</text>Time - Team</h2>
+          <p>DuZeru visa fornecer-lhe uma variedade de opções de suporte na medida do possível.</p>
+          <p>DuZeru aims to provide you with a variety of Support options.</p>
+          <p>&nbsp;</p>
+          <h2><text class="icon-book">&nbsp;</text>Treinamento - Training</h2>
+
+	<p>Acesse um treinamento que visa usuários iniciantes ou intermediários. O usuário iniciante conhecerá mais sobre o sistema, como usar e como funciona. O acesso das vídeo aulas é gratuito, todos têm acesso a um conhecimento de qualidade tornando assim a inclusão digital</p>
+          
+	<p>Access a training aimed at beginners and intermediate users. The novice user will know more about the system, how to use and how it works. The access of video lessons is free, everyone has access to quality knowledge</p>
+           <a class="btn btn-inverse btn-large" href="cmd://link?http://duzeru.org/treinamento/"><i class="icon-book"></i> Videos online </a></p><img src="img/header-shadow.png"></img>
+
+          <h2><text class="icon-comment">&nbsp;</text> Suporte - Support </h2>
+          
+	<p>Os fóruns são um grande recurso para obter informações. Comece a procurar o seu problema aquí: </p>
+	<p>Forums are a great resource for information. Begin by searching for your problem here: </p>
+           <a class="btn btn-inverse btn-large" href="cmd://link?http://duzeru.org/forum/"><i class="icon-search"></i> Forums</a></p>
+
+              <p>Caso desejar acessar a comunidade no Facebook, clíque no link abaixo:</p>
+	      <p> If you want to access the community on Facebook, click the link below:</p>
+           <a class="btn btn-inverse btn-large" href="cmd://link?https://www.facebook.com/groups/duzerulinux"><i class="icon-pencil"></i> Facebook</a></p>
+
+               <p> Se desejar outra forma de contato, usamos a plataforma Telegram para dar suporte sempre que possível. </p>
+               <p> If you want another way to connect, use the Telegram platform to support whenever possible. </p>
+           <a class="btn btn-inverse btn-large" href="cmd://link?https://telegram.me/joinchat/BKZrNwC8DoxzamVN-QfaLg"><i class="icon-comment"></i> Telegram</a></p><img src="img/header-shadow.png"></img>
+
+          <h2><text class="icon-info-sign">&nbsp;</text>Documentos - Documents</h2>
+          <p>Os documentos são muito importantes para conhecer a visão, missão, quem contribui com o projeto, o que o futuro reserva entre outros aspectos. Acesse pois vale a pena conhecer o que você usa.</p>
+
+	  <p>he documents are very important to know the vision, mission, who contributes to the project, what the future holds among other things. Go because it's worth knowing what uses.</p>
+
+                  <a class="btn btn-inverse btn-large" href="cmd://link?http://duzeru.org/documentacao/"><i class="icon-info-sign"></i> Documentos</a></p><img src="img/header-shadow.png"></img>
+
+          <div class="alert alert-success">
+            <p><a name="footnote_1"></a>
+
+<b>DICA:</b> <a href="cmd://link?http://duzeru.org/forum/">O Fórum</a> é a melhor plataforma para a procura de respostas. Nossos membros são muito generosos com seu tempo e há sempre pessoas dispostas a ajudá-lo. Obtenha ajuda hoje.</p>
+
+<b>TIP:</b> <a href="cmd://link?http://duzeru.org/forum/">The Forum</a> is the best avenue for seeking answers. Our members are very generous with their time and there are always people willing to help you. Get help today.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="bottom">
+      <div class="footer-content">
+        <div class="form pull-right">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      var $nav = $('#navigation');
+      $nav.css('left', -$nav.outerWidth());
+      $nav.show();
+      $nav.delay(250).animate({ left: 0 }, 500);
+    });
+  </script>
+</body>
+</html>
