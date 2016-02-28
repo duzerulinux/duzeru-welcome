@@ -1,0 +1,59 @@
+{
+    "title" : "Bem Vindo ao DuZeru GNU/Linux",
+
+    "bemVindo" : "Bem-vindos ao DuZeru GNU/Linux, é uma honra ter você como usuário do sistema, somos uma iniciativa livre baseada no Debian, nosso time deseja fazer para você o melhor possível. Nossa moeda de troca neste projeto é o conhecimento mútuo. Abaixo, veja algumas dicas iniciais.",
+    "welcome" : "Welcome to DuZeru GNU/Linux, it is an honor to have you as a user of the system, we are a Debian-based free enterprise, our team want to make you the best. Our coin trading this project is mutual understanding. Below, see some initial tips.",
+
+
+    "ptStart"       : "Iniciar",
+    "enStart"       : "Start",
+        "ptUpdate"      : "Atualizações",
+        "enUpdate"      : "Updates",
+        "ptSoftware"    : "Aplicativos",
+        "enSoftware"    : " Softwares",
+        "ptRequi"       : "Requisitos",
+        "enRequi"       : "Requirements",
+
+    "ptSup"         : "Suporte",
+    "enSup"         : "Support",
+        "ptTime"    : "Time",
+        "enTime"    : "Team",
+        "ptTreina"  : "Treinamento",
+        "enTreina"  : "Training",
+        "ptDocum"   : "Documentos",
+        "enDocum"   : "Documents",
+
+    "ptCon"         : "Contribuir",
+    "enCon"         : "Contribute",
+        "ptCode"    : "Código",
+        "enCode"    : "Code",
+        "ptDoar"    : "Doar",
+        "enDoar"    : "Donate",
+        "ptOther"   : "Outros",
+        "enOther"   : "Others",
+
+    "ptUpdateStart" : "Atualizando o DuZeru",
+        "ptInstall" : " Install Updates",
+        "ptTxt11" : "Uma vez instalado o DuZeru, se desejar atualizá-lo, ha uma ferramenta gráfica para atualizar acessando:",
+        "ptTxt12" : "Menu, Sistema, Gerenciador de atualizacoes",
+        "ptTxt13" : "Caso deseja atualizar agora, simplesmente clique no botao abaixo agora.",
+        "enTxt11" : "Once installed DuZeru, whether to update it, there is a graphical tool for upgrade:",
+        "enTxt12" : "Menu, System, Update Manager.",
+        "enTxt13" : "If you want to upgrade now, simply click the button below now.",
+        "ptTxt21" : "Adaptamos tudo o mais simples, e com apenas alguns clíques você consegue instalar seus programas favoritos.",
+        "enTxt21" : "We adapt everything as simple, with just a few clicks you can install your favorite programs.",
+        "ptTxt31" : "Clique em",
+        "ptTxt32" : "Menu, Sistema, Gerenciador de Aplicações",
+        "ptTxt33" : "e siga as instrucoes na tela para instalar o aplicativo, ou clique no botão abaixo.",
+        "enTxt31" : "Click on",
+        "enTxt32" : "Menu, System, Software Manager",
+        "enTxt33" : "and follow the onscreen prompts to install popular software or click on the button below.",
+
+        "enSoftCenter" : "Software Center"
+
+
+
+
+
+
+}

@@ -1,19 +1,21 @@
-﻿<!DOCTYPE html>
-<html lang="en" ng-app>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
-  <link href="css/welcome.css" rel="stylesheet" media="screen">
+	<title tkey="title"></title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/welcome.css" rel="stylesheet" media="screen">
 </head>
+
 <body class="backdrop" ng-controller="WelcomeCtrl">
   <div id="wrapper">
     <div id="header" class="container-fluid">
       <div class="row-fluid">
         <div class="span6 offset3 center">
           <a href="cmd://link?http://www.duzeru.org/">
-            <img class="logo" src="./img/logo.png"></img>
+            <img class="logo" src="assets/img/logo.png" />
           </a>
         </div>
         <div class="span3">
@@ -24,8 +26,10 @@
       <div class="row-fluid">
         <div class="span12">
           <div class="summary">
-            <center><p>Bem-vindos ao DuZeru GNU/Linux, é uma honra ter você como usuário do sistema, somos uma iniciativa livre baseada no Debian, nosso time deseja fazer para você o melhor possível. Nossa moeda de troca neste projeto é o conhecimento mútuo. Abaixo, veja algumas dicas iniciais.</p>
-            <p>Welcome to DuZeru GNU/Linux, it is an honor to have you as a user of the system, we are a Debian-based free enterprise, our team want to make you the best. Our coin trading this project is mutual understanding. Below, see some initial tips.</p>
+            <center>
+                <p tkey="bemVindo"></p>
+                <p tkey="welcome"></p>
+            </center>
           </div>
         </div>
       </div>
@@ -33,45 +37,45 @@
     <div id="content" class="container-fluid">
       <div class="row-fluid divider">
         <div class="span4 btn-showcase">
-          <!--Conteudo do corpo-->
-          <h4>Iniciar - Start &nbsp;<text class="icon-circle-arrow-down">&nbsp;</text></h4>
-          <a class="btn btn-block btn-info" href="./start.html"><i class="icon-ok"></i> Atualizações - Updates</a>
-          <a class="btn btn-block" href="./start.html"><i class="icon-upload"></i> Aplicativos - Softwares</a>
-          <a class="btn btn-block" href="./start.html#hardware"><i class="icon-cog"></i> Requisitos - Requirements</a>
+          <h4><span tkey="ptStart"></span> - <span tkey="enStart"></span> <text class="icon-circle-arrow-down"></text></h4>
+          <a class="btn btn-block" href="./start.html"><i class="icon-ok"></i> <span tkey="ptUpdate"></span> - <span tkey="enUpdate"></span></a>
+          <a class="btn btn-block" href="./start.html#software"><i class="icon-upload"></i> <span tkey="ptSoftware"></span> - <span tkey="enSoftware"></span></a>
+          <a class="btn btn-block" href="./start.html#hardware"><i class="icon-cog"></i> <span tkey="ptRequi"></span> - <span tkey="enRequi"></span></a>
         </div>
         <div class="span4 btn-showcase">
-          <h4>Suporte - Support</h4>
-          <a class="btn btn-block" href="./support.html"><i class="icon-group"></i> Time - Team</a>
-          <a class="btn btn-block" href="cmd://duzeru-manual"><i class="icon-question-sign"></i> Treinamento - Training </a>
-          <a class="btn btn-block" href="cmd://duzeru-documents"><i class="icon-info-sign"></i> Documentos - Documents</a>
+          <h4><span tkey="ptSup"></span> - <span tkey="enSup"></span></h4>
+          <a class="btn btn-block" href="./support.html"><i class="icon-group"></i> <span tkey="ptTime"></span> - <span tkey="enTime"></span></a>
+          <a class="btn btn-block" href="cmd://duzeru-manual"><i class="icon-question-sign"></i> <span tkey="ptTreina"></span> - <span tkey="enTreina"></span></a>
+          <a class="btn btn-block" href="cmd://duzeru-documents"><i class="icon-info-sign"></i> <span tkey="ptDocum"></span> - <span tkey="enDocum"></span></a>
         </div>
         <div class="span4 btn-showcase">
-          <h4> Contribuir - Contribute</h4>
-          <a class="btn btn-block" href="./contribute.html"><i class="icon-qrcode"></i> Código - Code</a>
-          <a class="btn btn-block" href="./contribute.html"><i class="icon-heart"></i> Doar - Donate</button></a>
-          <a class="btn btn-block" href="./contribute.html"><i class="icon-thumbs-up"></i> Outros - Others</button></a>
+          <h4><span tkey="ptCon"></span> - <span tkey="enCon"></span></h4>
+          <a class="btn btn-block" href="./contribute.html"><i class="icon-qrcode"></i> <span tkey="ptCode"></span> - <span tkey="enCode"></a>
+          <a class="btn btn-block" href="./contribute.html"><i class="icon-heart"></i> <span tkey="ptDoar"></span> - <span tkey="enDoar"></a>
+          <a class="btn btn-block" href="./contribute.html"><i class="icon-thumbs-up"></i> <span tkey="ptOther"></span> - <span tkey="enOther"></a>
         </div>
       </div>
     </div>
     <div id="footer">
-      <div class="footer-content">
-        <div id="social" class="pull-left">
-          <a href="cmd://link?https://www.facebook.com/groups/duzerulinux"><img src="img/social-facebook.png"></a>
-          <a href="cmd://link?https://youtube.com.br/duzerulinux"><img src="img/youtube.png"></a>
-          <a href="cmd://link?http://duzeru.org"><img src="img/duzerusite.png"></a>
-          <a href="cmd://link?https://telegram.me/joinchat/BKZrNwC8DoxzamVN-QfaLg"><img src="img/telegram.png"></a>
-	  <a href="cmd://link?https://github.com/duzerulinux"><img src="img/github.png"></a>
+        <div class="footer-content">
+            <div id="social" class="pull-left">
+                <a href="cmd://link?https://www.facebook.com/groups/duzerulinux"><img src="assets/img/social-facebook.png"></a>
+                <a href="cmd://link?https://youtube.com.br/duzerulinux"><img src="assets/img/youtube.png"></a>
+                <a href="cmd://link?http://duzeru.org"><img src="assets/img/duzerusite.png"></a>
+                <a href="cmd://link?https://telegram.me/joinchat/BKZrNwC8DoxzamVN-QfaLg"><img src="assets/img/telegram.png"></a>
+                <a href="cmd://link?https://github.com/duzerulinux"><img src="assets/img/github.png"></a>
+            </div>
+            <div class="form">
+                <a id="toggle_autostart" href="cmd://toggle-startup"><i id="autostart" class="icon icon-check"></i> não mostrar mais - not show more.</a>
+                <a href="cmd://close" class="btn-no-width btn-inverse">Close</a>
+            </div>
         </div>
-        <div class="form">
-          <a id="toggle_autostart" href="cmd://toggle-startup"><i id="autostart" class="icon icon-check"></i> não mostrar mais - not show more.</a>
-          <a href="cmd://close" class="btn-no-width btn-inverse">Close</a>
-        </div>
-      </div>
     </div>
   </div>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/angular.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/welcome.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <!--<script src="assets/js/angular.min.js"></script> -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/welcome.js"></script>
+  <script src="app/configLang.js"></script>
 </body>
 </html>

@@ -68,27 +68,25 @@
       </div>
     </div>
     <div id="footer">
-      <div class="footer-content">
-        <div id="social" class="pull-left">
-          <a href="cmd://link?https://www.facebook.com/groups/duzerulinux"><img src="img/social-facebook.png"></a>
-          <a href="cmd://link?https://youtube.com.br/duzerulinux"><img src="img/youtube.png"></a>
-          <a href="cmd://link?http://duzeru.org"><img src="img/duzerusite.png"></a>
-          <a href="cmd://link?https://telegram.me/joinchat/BKZrNwC8DoxzamVN-QfaLg"><img src="img/telegram.png"></a>
-	  <a href="cmd://link?https://github.com/duzerulinux"><img src="img/github.png"></a>
+        <div class="footer-content">
+            <div id="social" class="pull-left">
+                <a href="cmd://link?https://www.facebook.com/groups/duzerulinux"><img src="assets/img/social-facebook.png"></a>
+                <a href="cmd://link?https://youtube.com.br/duzerulinux"><img src="assets/img/youtube.png"></a>
+                <a href="cmd://link?http://duzeru.org"><img src="assets/img/duzerusite.png"></a>
+                <a href="cmd://link?https://telegram.me/joinchat/BKZrNwC8DoxzamVN-QfaLg"><img src="assets/img/telegram.png"></a>
+                <a href="cmd://link?https://github.com/duzerulinux"><img src="assets/img/github.png"></a>
+            </div>
+            <div class="form">
+                <a id="toggle_autostart" href="cmd://toggle-startup"><i id="autostart" class="icon icon-check"></i> não mostrar mais - not show more.</a>
+                <a href="cmd://close" class="btn-no-width btn-inverse">Close</a>
+            </div>
         </div>
-      </div>
+    </div>
   </div>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/angular.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-
-  <script>
-    $(document).ready(function() {
-      var $nav = $('#navigation');
-      $nav.css('left', -$nav.outerWidth());
-      $nav.show();
-      $nav.delay(250).animate({ left: 0 }, 500);
-    });
-  </script>
+  <script src="assets/js/jquery.min.js"></script>
+  <!--<script src="assets/js/angular.min.js"></script> -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/welcome.js"></script>
+  <script src="app/configLang.js"></script>
 </body>
 </html>
