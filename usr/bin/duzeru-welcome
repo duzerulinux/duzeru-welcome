@@ -163,7 +163,7 @@ class DuzeruAppView(WebKit.WebView):
             Popen(['exo-open', 'http://duzeru.org/versoes-do-sistema/'])
 
         elif uri == 'duzeru-documents':
-            Popen(['exo-open', 'http://duzeru.org/ducumentacao/'])
+            Popen(['exo-open', 'http://duzeru.org/documentacao/'])
 
         elif uri == 'close':
             Gtk.main_quit()
